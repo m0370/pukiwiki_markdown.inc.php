@@ -19,7 +19,7 @@ Markdown式リンク表記
 
 ## Markdown parserはMichelfでもerusevでも使える
 
-Markdown parserはどれをつかっても大差はないのですが、sonotsさんのオリジナルは[Michelf/markdown](https://github.com/michelf/php-markdown)のMarkdown parserを使っていて、今回は[erusev/markdown](https://github.com/erusev/parsedown)も使えるようにしています。erusev/markdownのほうが改行が反映されるオプションを設定しやすく、また（セーフモードをfalseにすれば）RAW HTMLも使いやすくなっているので、個人的にはerusev/markdownのほうが好みです。ただし、個人または限られた人物のみが使用する場合はerusev/markdownを使用する場合はMarkdown parserのセーフモードをオフにするほうが良いでしょう。
+Markdown parserはどれをつかっても大差はないのですが、sonotsさんのオリジナルは[Michelf/markdown](https://github.com/michelf/php-markdown)のMarkdown parserを使っていて、今回は[erusev/markdown](https://github.com/erusev/parsedown)も使えるようにしています。erusev/markdownのほうが改行が反映されるオプションを設定しやすく、また（セーフモードをfalseにすれば）RAW HTMLも使いやすくなっているので、個人的にはerusev/markdownのほうが好みです。ただし、個人または限られた人物のみが使用する場合以外  はerusev/markdownを使用する場合はMarkdown parserのセーフモードをオンにするほうが良いでしょう。
 
 ## 設置方法
 
